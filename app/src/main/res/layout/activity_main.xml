@@ -58,4 +58,33 @@
             android:layout_centerHorizontal="true"
             android:layout_below="@+id/tv_my_age"/>
 
+    <TextView
+            android:id="@+id/tvCountValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_below="@+id/btnShowToast"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"/>
+
+    <Button
+            android:id="@+id/btnCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COUNT 1+"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tvCountValue"
+            android:layout_marginTop="5dp"/>
+
+    <Button
+            android:id="@+id/btnReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESET"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/btnCount"
+            android:layout_marginTop="5dp"/>
+
 </RelativeLayout>
