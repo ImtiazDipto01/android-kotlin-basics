@@ -50,4 +50,12 @@
             android:layout_marginTop="10dp"
             android:layout_centerHorizontal="true"/>
 
+    <Button
+            android:id="@+id/btnShowToast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SHOW TOAST"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tv_my_age"/>
+
 </RelativeLayout>

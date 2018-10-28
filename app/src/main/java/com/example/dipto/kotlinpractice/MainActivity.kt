@@ -3,6 +3,8 @@ package com.example.dipto.kotlinpractice
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import android.widget.Toast
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -22,6 +24,9 @@ class MainActivity : AppCompatActivity() {
         initView()
         initValues()
         updateUI()
+        btnShowToast.setOnClickListener {
+            Toast.makeText(this@MainActivity, "Hello "+name, Toast.LENGTH_SHORT).show();
+        }
     }
 
     private fun updateUI() {
