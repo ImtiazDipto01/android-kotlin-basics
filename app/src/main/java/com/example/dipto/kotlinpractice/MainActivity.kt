@@ -52,6 +52,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         tvEmail = findViewById<TextView>(R.id.tv_my_email)
         btnCount.setOnClickListener(this)
         btnReset.setOnClickListener(this)
+        btnNewActivity.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
@@ -64,6 +65,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 R.id.btnReset ->{
                     count = 0
                     tvCountValue.setText(count.toString())
+                }
+                R.id.btnNewActivity ->{
+
                 }
             }
         }
